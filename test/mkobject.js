@@ -1,7 +1,5 @@
 'use strict';
 
-const fs = require('fs');
-
 const mkobject = require('..');
 const test = require('tape');
 
