@@ -1,0 +1,5 @@
+2018.03.05, v1.0.1
+
+feature:
+- (mkobject) bindNames -> bindKeys
+
