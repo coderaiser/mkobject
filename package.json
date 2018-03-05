@@ -5,11 +5,10 @@
   "description": "make object from keys and values",
   "homepage": "http://github.com/coderaiser/mkobject",
   "keywords": [
-    "get",
-    "pull",
-    "body",
-    "data",
-    "stream"
+    "array",
+    "object",
+    "key",
+    "value"
   ],
   "repository": {
     "type": "git",
