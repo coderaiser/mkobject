@@ -1,3 +1,15 @@
+2018.10.10, v1.0.3
+
+feature:
+- (package) redrun v7.0.2
+- (package) nyc v13.0.1
+- (package) currify v3.0.0
+- (package) add eslint-plugin-node
+- (package) nyc v12.0.2
+- (package) eslint v5.1.0
+- (package) redrun v6.0.0
+
+
 2018.03.05, v1.0.2
 
 feature:
