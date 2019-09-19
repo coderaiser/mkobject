@@ -20,11 +20,7 @@
     "watch:test": "npm run watcher -- \"npm test\"",
     "watcher": "nodemon -w lib -w test -x",
     "coverage": "nyc npm test",
-    "report": "nyc report --reporter=text-lcov | coveralls",
-    "wisdom": "npm run build",
-    "6to5": "buble lib -o legacy",
-    "build": "redrun 6to5 legacy",
-    "legacy": "echo \"module.exports = require('./mkobject');\" > legacy/index.js"
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "currify": "^4.0.0"
@@ -32,12 +28,14 @@
   "license": "MIT",
   "main": "lib/mkobject.js",
   "devDependencies": {
-    "buble": "^0.19.2",
     "coveralls": "^3.0.0",
     "eslint": "^5.1.0",
-    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-putout": "^2.0.0",
+    "madrun": "^3.0.5",
     "nodemon": "^1.11.0",
-    "nyc": "^13.0.1",
+    "nyc": "^14.1.1",
+    "putout": "^6.1.0",
     "redrun": "^7.0.2",
     "tape": "^4.2.0"
   }
