@@ -1,4 +1,7 @@
 .*
 *.swp
 test
+coverage
+
+madrun.js
 

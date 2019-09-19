@@ -23,14 +23,6 @@ mkobject(['a', 'b'], [1, 2]);
 }
 ```
 
-## Environments
-
-In old `node.js` environments that not fully supports `es2015`, `mkobject` could be used with:
-
-```js
-var mkobject = require('mkobject/legacy');
-```
-
 ## License
 MIT
 

@@ -15,12 +15,13 @@
     "url": "git://github.com/coderaiser/mkobject.git"
   },
   "scripts": {
-    "test": "tape test/*.js",
-    "lint": "eslint lib test",
-    "watch:test": "npm run watcher -- \"npm test\"",
-    "watcher": "nodemon -w lib -w test -x",
-    "coverage": "nyc npm test",
-    "report": "nyc report --reporter=text-lcov | coveralls"
+    "test": "madrun test",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "watch:test": "madrun watch:test",
+    "watcher": "madrun watcher",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
   },
   "dependencies": {
     "currify": "^4.0.0"
@@ -36,7 +37,6 @@
     "nodemon": "^1.11.0",
     "nyc": "^14.1.1",
     "putout": "^6.1.0",
-    "redrun": "^7.0.2",
-    "tape": "^4.2.0"
+    "supertape": "^1.2.3"
   }
 }

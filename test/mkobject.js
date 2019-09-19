@@ -1,7 +1,7 @@
 'use strict';
 
 const mkobject = require('..');
-const test = require('tape');
+const test = require('supertape');
 
 test('mkobject: args: no', (t) => {
     t.throws(mkobject, /keys should be an array!/, 'should throw when no args');
