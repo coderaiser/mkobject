@@ -27,7 +27,7 @@
     "legacy": "echo \"module.exports = require('./mkobject');\" > legacy/index.js"
   },
   "dependencies": {
-    "currify": "^3.0.0"
+    "currify": "^4.0.0"
   },
   "license": "MIT",
   "main": "lib/mkobject.js",
