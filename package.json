@@ -36,7 +36,7 @@
   "main": "lib/mkobject.js",
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^6.4.0",
+    "eslint": "^7.10.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-putout": "^5.2.0",
     "madrun": "^7.0.4",
